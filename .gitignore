@@ -1,0 +1,7 @@
+__pycache__
+*.log
+temp.py
+data_new/
+algorithm/*.png
+*groundtruth*
+*.csv
