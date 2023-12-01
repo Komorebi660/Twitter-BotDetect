@@ -11,6 +11,7 @@
     - [数据可视化](#数据可视化)
   - [算法对比](#算法对比)
   - [XGBoost可视化](#xgboost可视化)
+  - [预测测试集结果](#预测测试集结果)
 
 ## Highlights
 
@@ -27,6 +28,8 @@
 - Python 3.9.16
 - Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz
 
+**注意：由于代码中存在很多随机算法，即使我们固定了随机种子，最终的结果也可能因为运行环境和硬件平台不同而产生轻微差异。**
+
 ## 仓库目录结构
 
 ```
@@ -39,6 +42,7 @@
 ├── figs/               # 图片目录
 ├── predict.py          # 最终的模型方案
 ├── requirements.txt    # 依赖包
+├── test_label.json     # predict.py的输出结果
 └── visualization.py    # 数据可视化脚本
 ```
 
@@ -204,3 +208,11 @@ SymbolicTransformer挖掘出的10个特征中我们只取前三个，剩余的25
 <img src="figs/tree_1000.png" width=100%/>
 </div>
 </br>
+
+## 预测测试集结果
+
+```bash
+python predict.py
+```
+
+你将会得到一个`test_label.json`文件。
