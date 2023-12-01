@@ -12,6 +12,7 @@
   - [算法对比](#算法对比)
   - [XGBoost可视化](#xgboost可视化)
   - [预测测试集结果](#预测测试集结果)
+  - [Acknowledgement](#acknowledgement)
 
 ## Highlights
 
@@ -188,7 +189,6 @@ SymbolicTransformer挖掘出的10个特征中我们只取前三个，剩余的25
 
 可以看出**XGBoost**方法表现最好。
 
-
 ## XGBoost可视化
 
 我们使用XGBoost的`plot_importance`方法可视化特征重要性：
@@ -216,3 +216,7 @@ python predict.py
 ```
 
 你将会得到一个`test_label.json`文件。
+
+## Acknowledgement
+
+感谢[@xwy-bit](https://github.com/xwy-bit)、[@weizhang-ustc](https://github.com/weizhang-ustc)、[@pipixia244](https://github.com/pipixia244)的辛勤付出。
