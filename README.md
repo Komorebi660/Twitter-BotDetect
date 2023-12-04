@@ -21,7 +21,7 @@
 - 利用**递归特征消除的方法过滤冗余特征和不重要特征**，降低模型复杂度，提高训练和推理效率；
 - 对比常见的机器学习分类器算法，选用**XGBoost分类器**，并在此基础上使用**网格搜索的方式进一步调优**，充分发挥模型性能。
 
-最终，我们在测试集上达到了**0.8248**的F1 Score，排名[第四](http://www.crowdhmt.com/crowdcompetition/leaderboard)。
+最终，我们在测试集上达到了**0.8248**的F1 Score，排名[第三](http://www.crowdhmt.com/crowdcompetition/leaderboard)。
 
 ## 实验环境
 
